@@ -89,7 +89,15 @@ function getRandomCard() {
       }
     }
   }
+
+  function startGameOnClick() {
+    playBlackjack();
+  }
+
+  // Start the game when a user clicks the start button
+  const startButton = document.getElementById("startButton");
+  startButton.addEventListener("click", startGameOnClick);
   
-  // Start the game
-  playBlackjack();
+  
+  
   
