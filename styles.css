@@ -11,8 +11,8 @@ body {
 }
 
 header {
-    background-color: #fff;
-    color: #fff;
+    background-color: darkgray;
+    color: black;
     text-align: center;
     padding: 1rem;
     animation: fadeInUp 1s ease-in-out;
